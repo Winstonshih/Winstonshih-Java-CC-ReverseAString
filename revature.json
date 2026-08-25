@@ -1,0 +1,35 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/StringReverseTest.java",
+      "testCases": [
+        {
+          "methodName": "StringReverseTest1",
+          "label": "Reverses a simple 3-letter string",
+          "description": "Verifies that the reverse method returns 'cba' when given the input 'abc'."
+        },
+        {
+          "methodName": "StringReverseTest2",
+          "label": "Reverses a palindrome string",
+          "description": "Verifies that the reverse method returns the same value 'racecar' when given the palindrome 'racecar'."
+        },
+        {
+          "methodName": "StringReverseTest3",
+          "label": "Reverses a single-character string",
+          "description": "Verifies that the reverse method returns 'f' when given the single-character string 'f'."
+        },
+        {
+          "methodName": "StringReverseTest4",
+          "label": "Reverses an empty string",
+          "description": "Verifies that the reverse method returns an empty string when given an empty string as input."
+        },
+        {
+          "methodName": "StringReverseTest5",
+          "label": "Reverses a longer word",
+          "description": "Verifies that the reverse method returns 'wollip' when given the input 'pillow'."
+        }
+      ]
+    }
+  ]
+}
